@@ -12,6 +12,9 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+// Todo: remove this before committing to the public repo :P
+// https://excalidraw.com/#room=b815d4b2c4495b21bc47,vijPMqD2RAAfCSmkk2D0Dw
+
 // An example config class. This is not required, but it's a good idea to have one to keep your config organized.
 // Demonstrates how to use Forge's config APIs
 @Mod.EventBusSubscriber(modid = DiviningRodsMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)

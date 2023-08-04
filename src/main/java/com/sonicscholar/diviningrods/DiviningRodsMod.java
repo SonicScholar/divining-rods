@@ -53,6 +53,10 @@ public class DiviningRodsMod
     public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
             .alwaysEat().nutrition(1).saturationMod(2f).build())));
 
+    //
+//    public static final RegistryObject<Item> DIVINING_ROD_ITEM = ITEMS.register("divining_rod",
+//            () -> new Item(new Item.Properties().fireResistant().stacksTo(1)))
+
     // Creates a creative tab with the id "examplemod:example_tab" for the example item, that is placed after the combat tab
     public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.COMBAT)
